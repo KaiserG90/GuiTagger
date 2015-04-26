@@ -1,0 +1,2 @@
+javac -classpath lib/jaudiotagger-2.2.3.jar -sourcepath src/ src/guitagger/Main.java -d bin/
+java -classpath lib/jaudiotagger-2.2.3.jar;bin; guitagger/Main
